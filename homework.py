@@ -98,7 +98,7 @@ while x_s != x_f or y_s != y_f:
         f4 = g + abs(x_s - x_f) + abs(y_s - y_f + 1)
     f = min(f1, f2, f3, f4)
     if (f1 == f2 == f3 == f4) or (f1 > 50 or f2 > 50 or f3 > 50 or f4 > 50):
-        print("Алгоритм не реализуем")
+        print("Алгоритм не реализуем.")
         break
     if f == f1:
         x_a_l = x_s
